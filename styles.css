@@ -56,10 +56,36 @@ body {
 
 h1 {
   margin: 0;
-  max-width: 22ch;
+  max-width: 25ch;
   font-size: clamp(2rem, 6vw, 4rem);
-  line-height: 1.08;
+  line-height: 1.02;
   text-wrap: balance;
+}
+
+.line {
+  display: block;
+}
+
+.line-top {
+  font-size: 0.84em;
+  color: #d9efe3;
+}
+
+.line-mid {
+  margin-top: 0.28em;
+  font-size: 0.46em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.line-bottom {
+  margin-top: 0.06em;
+  font-size: 1em;
+  background: linear-gradient(90deg, #d9ff93, #9df7a7 48%, #62d59b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .sub {
