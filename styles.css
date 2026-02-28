@@ -73,10 +73,10 @@ h1 {
 
 .line-mid {
   margin-top: 0.28em;
-  font-size: 0.46em;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--muted);
+  font-size: 0.42em;
+  letter-spacing: 0.02em;
+  color: #c6dccf;
+  font-weight: 500;
 }
 
 .line-bottom {
